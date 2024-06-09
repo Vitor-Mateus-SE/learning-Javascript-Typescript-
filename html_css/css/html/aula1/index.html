@@ -4,20 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu html</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #heading {
+
+        padding: 5px;
+      }
+      #heading .h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 15px 0px 15px 15px;
+      }
+
+      #heading .h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 17px 15px 15px 15px;
+      }
+      #heading a {
+        font-family: sans-serif;
+        text-decoration: none;
+      }
+      div {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
   </head>
   <body>
-    <h1>Olá Mundo!</h1>
-    <h2>Olá Mundo!</h2>
-    <h3>Olá Mundo!</h3>
-    <h4>Olá Mundo!</h4>
-    <h5>Olá Mundo!</h5>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptates,
-      est perferendis aperiam neque iure pariatur perspiciatis consequatur
-      voluptatem saepe maxime numquam corporis autem alias porro asperiores
-      accusamus hic nam error dolores, modi eos eveniet quod. Explicabo eligendi
-      aliquid, sequi provident temporibus quas labore iure voluptate nemo rerum!
-      Commodi, necessitatibus!
-    </p>
+    <header id="heading">
+      <div>
+        <h1 class="h1">
+          <a href="#">Netflix</a>
+        </h1>
+        <h1 class="h2">
+          <a href="#">Entrar</a>
+        </h1>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
